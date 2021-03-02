@@ -1,5 +1,5 @@
 ## Dictionary ##
-dictionary <- "D:/Program Files/RStudio/projects/LDA-implementation/F-B Model/dictionary.txt"
+dictionary <- "D:/Program Files/RStudio/projects/F-B Model/dictionary.txt"
 w <- readLines(dictionary)
 V <- unlist(strsplit(w," "))
 alpha_mu <- 0.05
