@@ -1,0 +1,148 @@
+Newsgroup: comp.sys.mac.hardware
+document_id: 50418
+From: xor@clotho.acm.rpi.edu (Joe Schwartz)
+Subject: Re: NUTEK FACES APPLE'S WRATH (article!!!!!!) READ
+
+In article <davea-120493231310@129.228.20.182> davea@xetron.com (David P. Alverson) writes:
+>I believe Apple has a patent on the region features of QuickDraw.  A mac
+>clone would have to implement regions.  This is why Apple's comment was
+>that
+>they believe it is not possible to make a Mac clone without infringing
+>on their patents.  They may have other patents like this.
+
+Apple has patented their implementation of regions, which presumably
+includes the internal data structure (which has never been officially
+documented by Apple).  Apple cannot patent the concept of a region.
+
+I'm guessing that either NuTek reverse-engineered Apple's internal data
+structure for regions (I dunno if this would hold up in court), or they
+came up with their own data structure.  If it's the latter, then they
+won't be able to draw PICT files containing regions.  Besides PICT files,
+there aren't many places where regions are stored on disk.  (QuickTime
+movies, perhaps?)  As long as the region isn't being stored on disk and
+transferred from a Mac to a NuTek clone (or vice versa), it doesn't
+matter if NuTek uses a completely different internal data structure.
+
+I remember reading that Apple also has a patent on their ADB hardware,
+and that the NuTek clones would therefore be lacking an ADB port.  What
+other patents does Apple have on the Mac?
+-- 
+Joe Schwartz       E-mail: xor@acm.rpi.edu  or  xor@clotho.acm.rpi.edu
+MapInfo Corp.
+200 Broadway       These are my own opinions.  Any similarity to the
+Troy, NY 12180     opinions of MapInfo Corporation is purely coincidental.
+
+Newsgroup: comp.sys.mac.hardware
+document_id: 50419
+From: hmarvel@magnus.acs.ohio-state.edu (Howard P Marvel)
+Subject: Re: your opinion of the LaserWriter Select 310?
+
+
+My wife has one of these.  I have not had much chance to fiddle with
+it, but in comparison to our Laserwriters with Canon engines, she
+complains that the print is too light for her taste.  The difference
+is quite apparent even when the print setting on the Select 310 is
+adjusted to the darkest possible level.  I don't find it
+objectionable, and indeed rather like it, but be warned that some
+people don't care for it and it is considerably different. 
+
+I recall that years ago there were lots of debates over write-black
+vs. write-white engines when dealing with TeX drivers.  Is something
+like that going on here?
+
+Newsgroup: comp.sys.mac.hardware
+document_id: 50420
+From: narain@ih-nxt09.cso.uiuc.edu (Nizam Arain)
+Subject: Floptical Question
+
+Hi. I am looking into buying a Floptical Drive, and was wondering what  
+experience people have with the drives from Iomega, PLI, MASS MicroSystems,  
+or Procom. These seem to be the main drives on the market. Any advice?
+
+Also, I heard about some article in MacWorld (Sep '92, I think) about  
+Flopticals. Could someone post a summary, if they have it?
+
+Thanks in advance. (Reply by post or email, whichever you prefer.)
+
+--Nizam
+
+--
+
+ /  *  \   Nizam Arain                           \ What makes the universe
+||     ||  (217) 384-4671                        / so hard to comprehend 
+| \___/ |  Internet: narain@uiuc.edu             \ is that there is nothing
+ \_____/   NeXTmail: narain@sumter.cso.uiuc.edu  / to compare it with.
+
+Newsgroup: comp.sys.mac.hardware
+document_id: 50421
+From: dfclark@snll-arpagw.llnl.gov (clark dean f)
+Subject: Re: Centris Cache & Bernoulli Box
+
+In article <1993Apr2.123619.548@physc1.byu.edu> goblec@physc1.byu.edu writes:
+>I just tried running my Bernoulli Box off a Centris and the driver
+>software only seems to work when the 040 cache is off.  If it is
+>on I get the message "This is not a Macintosh Disk - do you wish
+>to initialize it."  
+>
+>I have IOMEGA Driver 3.4.2.  Is there a newer version that works
+>with the 040's?  Is there something I am doing wrong?
+>
+>Clark Goble
+>goblec@theory.byu.edu
+
+I Have Version 3.5.1 which I believe was needed for a 040 machine.
+You should be able to get the newest version by calling their tech
+support at 1-800-456-5522 or if you have a modem you can get the
+driver from their BBS at 801-778-4400.
+
+
+
+dean
+
+
+
+-- 
+
+Dean Clark
+Internet dfclark@ca.sandia.gov
+
+Newsgroup: comp.sys.mac.hardware
+document_id: 50422
+From: glang@slee01.srl.ford.com (Gordon Lang)
+Subject: Please help find video hardware
+
+[ Article crossposted from comp.sys.hp ]
+[ Author was Gordon Lang ]
+[ Posted on 5 Apr 1993 23:25:27 GMT ]
+
+[ Article crossposted from comp.sys.ibm.pc.hardware ]
+[ Author was Gordon Lang ]
+[ Posted on 5 Apr 1993 23:19:01 GMT ]
+
+I need a device (either an ISA board or a subsystem) which will
+take two RGB video signals and combine them according to a template.
+The template can be as simple as a rectangular window with signal
+one being used for the interior and signal two for the exterior.
+But I beleive fancier harware may also exist which I do not want
+to exclude from my search.  I know this sort of hardware exists
+for NTSC, etc. but I need it for RGB.
+
+Please email and or post any leads....
+
+Gordon Lang (glang@smail.srl.ford.com  -or-  glang@holo6.srl.ford.com)
+
+Newsgroup: comp.sys.mac.hardware
+document_id: 50423
+From: winstead@faraday.ece.cmu.edu (Charles Holden Winstead)
+Subject: ftp site for Radius software???
+
+Hey All,
+
+Does anyone know if I can ftp to get the newest version of Radiusware
+and soft pivot from Radius?  I bought a pivot monitor, but it has an
+old version of this software and won't work on my C650, and Radius said
+it would be 4-5 weeks until delivery.
+
+Thanks!
+
+-Chuck
