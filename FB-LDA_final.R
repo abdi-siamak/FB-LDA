@@ -1,3 +1,8 @@
+#################################################
+# (C) Siamak Abdi - 2020
+# Implementation of the collapsed Gibbs sampling for Foreground-Background Latent Dirichlet Allocation (FB-LDA)
+# model in R, as described in "Interpreting the Public Sentiment Variations on Twitter". Shulong Tan et al.
+#################################################
 library(purrr)
 KB = 2                                                    # number of Background topics
 KF = 2                                                   # number of Foreground topics
