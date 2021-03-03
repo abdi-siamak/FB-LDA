@@ -341,6 +341,6 @@ for(j in 1:MF){
   }
 }
 
-## output matrix: gibbs,percent,topics,PHI,THETA
+## output matrix: gibbs, percent, topics, PHI, THETA
 
 
