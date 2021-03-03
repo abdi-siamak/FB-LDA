@@ -1,5 +1,5 @@
 # FB-LDA
-Implementation of the collapsed Gibbs sampling for FB-LDA model in R; as described in "Interpreting the Public Sentiment Variations on Twitter". Shulong Tan et al. TKDE 2014.
+Implementation of the collapsed Gibbs sampling for Foreground-Background Latent Dirichlet Allocation (FB-LDA) model in R; as described in "Interpreting the Public Sentiment Variations on Twitter". Shulong Tan et al.
 
 Instruction:
 1.  Run "preprocessing1.R" file
